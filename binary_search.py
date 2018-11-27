@@ -16,9 +16,9 @@ def binary_search(data,n):
             return True
         else:
             if n>data[mid]:
-                lower_bound=mid+1
+                lower_bound=mid+1 #skip mid value once mapped
             else:
-                upper_bound=mid-1
+                upper_bound=mid-1 #skip mid value once mapped
     print("not found in list")
     return False
 
