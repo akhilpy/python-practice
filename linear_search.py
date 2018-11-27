@@ -19,7 +19,7 @@ def check_args(function):
 def search_without_loop(lst, num):
 """ 
     This function will search 'num' in list 'lst'
-    :param lst num: 
+    :param lst, num: 
     :return: Boolean 
 """
     if num in lst:
@@ -32,7 +32,7 @@ def search_without_loop(lst, num):
 def search_while_loop(lst, num):
     """ 
     This function with While  loop will search 'num' in list 'lst'
-    :param lst num: 
+    :param lst, num: 
     :return: Boolean 
     """
     i=0
@@ -49,7 +49,7 @@ def search_while_loop(lst, num):
 def search_for_loop(lst, num):
     """ 
     This function  with for loop will search 'num' in list 'lst'
-    :param lst num: 
+    :param lst, num: 
     :return: Boolean 
     """
     for i in range(len(lst)):
