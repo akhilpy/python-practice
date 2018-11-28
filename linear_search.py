@@ -17,11 +17,11 @@ def check_args(function):
 
 @check_args
 def search_without_loop(lst, num):
-""" 
-    This function will search 'num' in list 'lst'
-    :param lst, num: 
-    :return: Boolean 
-"""
+    """ 
+        This function will search 'num' in list 'lst'
+        :param lst, num: 
+        :return: Boolean 
+    """
     if num in lst:
         print("found here")
         return True
