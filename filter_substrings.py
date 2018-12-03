@@ -1,6 +1,13 @@
+"""
+    Filter all largest sting from the list, and remove all substring
+    e.g 
+    Input:-["ab", "bc", "abc", "ef", "fgh", "efgh"]
+    Output:-['abc', 'efgh']
+"""
+
 
 import copy
-listA = ['abc','bcd','abcd', 'ef', 'eef']
+listA = ["ab", "bc", "abc", "ef", "fgh", "efgh"]
 listB=copy.deepcopy(listA) # create 2nd copy of main list 
 new_list=[]
 global longest_str 
