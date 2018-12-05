@@ -12,7 +12,7 @@ listB=copy.deepcopy(listA) # create 2nd copy of main list
 new_list=[]
 global longest_str 
 longest_str = max(listA, key=len)
-l_len=len(listA)
+l_len=len(listA) 
 while l_len>0:
     for l in listB:
         if l in longest_str and len(l)<len(longest_str):
