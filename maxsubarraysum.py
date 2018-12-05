@@ -1,5 +1,6 @@
 """
-
+This program to calculate the maximum sum of sub array from the array
+#kaden's algorithms 
 """
 
 
