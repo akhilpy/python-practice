@@ -4,7 +4,7 @@ Assertion:
          It is boolean experssion that confirm the boolean output of code.  
 
 """
-assert 2==2  # AsserationError will popup
+assert 2==3  # AsserationError will popup
 
 def div(p,q):
 
