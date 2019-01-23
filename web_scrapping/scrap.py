@@ -1,9 +1,13 @@
 from bs4 import BeautifulSoup
 import requests
+import csv
+
+"""
+Web Scrapping Example: List of Top rated bollwood film on IMDB and created CSV file of film(name, rate, and starring) 
+"""
 url= "https://www.imdb.com/india/top-rated-indian-movies/"
 response= requests.get(url)
 data = response.text
-import csv 
 
 soup = BeautifulSoup(data, 'html.parser')
 
