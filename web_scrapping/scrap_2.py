@@ -37,10 +37,11 @@ while True:
         print("Job date:", date)
         print("Job link:", link)
 
-    url_tag = soup.find("a",{"title":"next page"})
+    url_tag = soup.find("a",{"title":"pager-last"})
     if url_tag.get("href"):
         url ="https://boston.craigslist.org"+url_tag.get("href")
         print(url)
+       
     else:
         break
 
