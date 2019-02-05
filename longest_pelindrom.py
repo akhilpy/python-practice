@@ -1,9 +1,7 @@
 "find the all and longest pelindrome from the string"
 
 def palindromes(text):
-    text = text.lower()
     results = []
-
     for i in range(len(text)):
         for j in range(0, i):
             part = text[j:i + 1]
