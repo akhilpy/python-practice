@@ -11,5 +11,8 @@ def mul2(number):
     return number * 2
 
 
-print add([1,2,3,4], add2) #=> [3, 4, 5, 6]
-print add([1,2,3,4], mul2) #=> [2, 4, 6, 8]
+print(add([1,2,3,4], add2)) #=> [3, 4, 5, 6]
+print(add([1,2,3,4], mul2)) #=> [2, 4, 6, 8]
+
+a =[x+2 for x in [1,2,3,4]]
+print(a)
